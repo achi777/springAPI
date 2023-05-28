@@ -20,9 +20,14 @@ public class MyapiApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Employee employee = new Employee();
-        employee.setFirstName("Mamuka");
-        employee.setLastName("Kutaisidze");
-        employee.setEmailId("mamukia@gmail.com");
-        employeeRepository.save(employee);
+        Employee employee2 = new Employee();
+        Employee employee3 = new Employee();
+//        employee.setFirstName("Mamuka");
+//        employee.setLastName("Kutaisidze");
+//        employee.setEmailId("mamukia@gmail.com");
+//        employeeRepository.save(employee);
+        System.out.println(employee);
+        System.out.println(employee2);
+        System.out.println(employee3);
     }
 }
